@@ -116,7 +116,6 @@ a{
     justify-content: center;
     padding: 10px;
 }
-
 .images img{
     width: 284px;
     height: 200px;
@@ -129,9 +128,10 @@ a{
   /* our gallery end */
 /* served for people start */
 .donate_part{
+    background-color: #EDF5F6;
+    border-radius: 5px;
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    text-align: center;
 }
 /* served for people end */
 
@@ -208,7 +208,6 @@ a{
 }
 .contact_us{
     border-radius: 5px;
-    background-color: #EDF5F6;
     width: 205px;
     height: 180px;
     display: inline-block;
