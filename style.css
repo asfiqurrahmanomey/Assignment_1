@@ -110,6 +110,7 @@ a{
     background-color: #FFF4D6;
 }
 /* donate plan end */
+  /* our gallery start */
 .gallery{
     display: flex;
     justify-content: center;
@@ -125,7 +126,7 @@ a{
     padding: 4px;
     margin: 18px;
 }
-  /* our gallery start */
+  /* our gallery end */
 /* served for people start */
 .donate_part{
     text-align: center;
