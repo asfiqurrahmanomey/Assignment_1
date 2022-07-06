@@ -2,13 +2,13 @@ body{
     font-family: 'Gentium Book Plus', serif;
     margin: 0;
     padding: 0;
-
 }
 h1{
     font-size: 50px;
 }
 h2{
-    font-size: 40px;
+    font-size: 30px;
+    color: #707070;
 }
 h3{
     font-size: 20px;
@@ -30,8 +30,9 @@ a{
     padding: 15px 35px;
     border-radius: 10px;
 }
+
 /* header hero part start */
-.section_1{
+#section_1{
     width: auto;
     height: 300px;
     background-image: url("assets/images/donation10.jpg");
@@ -46,20 +47,27 @@ a{
 /* header part end */
 
 /* donation part start */
-/* .donation{
+.client_1{
+    width: 80%;
     display: inline-flex;
-    padding: 45px;
+    border-radius: 10px;
+    padding: 5px 0 0 275px;
+    text-align: center;
+
 }
-.donation_text{
-    border-radius: 5%;
-    background-color: #e4dddda8;
-    padding: 15px;
-    margin: 55px;
+.client_tx{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    width: 12%;
+    margin: 20px;
+    font-size: 16px;
+    border-radius: 5px;
 }
-.text_1 span{
-    color: black;
-    background-color: #e4dddda8;
-} */
+.tk{
+    background-color: #FFEEEE;
+    border: 2px solid #FF6C4F;
+    border-radius: 5px;
+
+}
 /* donation part end */
 
 /* donation amount start */
@@ -68,6 +76,7 @@ a{
 }
 .donate_button input{
     width: 70%;
+    margin-top: 20px;
     text-align: center;
     margin-bottom: 30px;
     border: none;
@@ -76,14 +85,6 @@ a{
     font-size: 18px;
 }
 /* donation amount end */
-
-/* served for people start */
-.donate_part{
-    text-align: center;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-/* served for people end */
-
 
 /* donate plan start */
 .donate_plan{
@@ -113,11 +114,13 @@ a{
 /* served for people start */
 .donate_part{
     text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
 }
-/* served for people start */
+/* served for people end */
 
 /* happy client start */
-.section_6{
+#section_5{
     background-image: url("assets/images/donation9.jpg");
     color: #ffffff;
     background-attachment: fixed;
@@ -202,3 +205,4 @@ a{
     color: aliceblue;
 }
 /* footer area end */
+
