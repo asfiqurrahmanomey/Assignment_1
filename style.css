@@ -114,19 +114,17 @@ a{
     display: flex;
     justify-content: center;
     padding: 10px;
-  }
-  
-  .images{
-      box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-      border-radius: 5px;
-      display: flex;
-      padding: 4px;
-      margin: 18px;
-  }
-  .images img{
+}
+
+.images img{
     width: 284px;
     height: 200px;
-  }
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 5px;
+    display: flex;
+    padding: 4px;
+    margin: 18px;
+}
   /* our gallery start */
 /* served for people start */
 .donate_part{
